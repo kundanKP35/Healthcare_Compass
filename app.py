@@ -33,7 +33,7 @@ def predict_hospitals_distance(max_distance):
 # Define a route to render the form
 @app.route('/')
 def form():
-    return render_template('home.html')
+    return render_template('index.html')
 
 
 # Define a route to handle form submissions
