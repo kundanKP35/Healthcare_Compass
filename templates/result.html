@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Available Hospitals</title>
+    <script src="https://kit.fontawesome.com/0e3251b5f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/result.css" />
+  </head>
+  <body>
+    <div class="result-section">
+      <h1 class="result-heading">Available Hospitals:</h1>
+      <div class="result-container">
+        {% for hospital in best_hospitals %}
+        <div>
+          <p class="result">
+            Hname:{{ hospital.hname}} - Distance:{{ hospital.distance|int }} km
+            - Beds:{{ hospital.beds|int }} - Oxygen cylinders:{{
+            hospital.oxy_cyl|int }} - Ventilators:{{ hospital.ventilators|int }}
+            - Doctors:{{ hospital.doctors|int }} - Staffs:{{ hospital.staff|int
+            }} - Severity:{{ hospital.severity }}
+          </p>
+          <form id="form-section" method="POST" action="/book">
+            <input
+              type="text"
+              value="{{hospital.hname}}"
+              id="hospital_id"
+              name="hospital_id"
+              readonly
+            />
+            <button type="submit" class="submit-button">Book<span style="margin-left: 8px;"><i class="fas fa-house-medical"></i></span></button>
+          </form>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>

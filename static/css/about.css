@@ -1,0 +1,105 @@
+body {
+  color: #1d3d73;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* Navbar section */
+.navbar-container {
+  background-color: #fff;
+  padding: 0.2rem 5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #1d3d73;
+}
+.navbar-brand img {
+  width: 320px;
+  height: 40px;
+}
+.nav-item {
+  margin-left: 0.8rem;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.nav-link {
+  font-family: Lato;
+  padding: 0;
+}
+.navbar a:hover {
+  color: #4a5c7c;
+}
+
+#project-section {
+  margin: 3.5rem 5rem;
+  color: #1d3d73;
+}
+#project-section h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+#project-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #1d3d73;
+  font-family: "Lato", sans-serif;
+}
+
+#team-section{
+  margin: 3.5rem 5rem;
+  color: #1d3d73;
+}
+#team-section h3 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+#team-section h4{
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin:0;
+}
+#team-section .team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#team-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+#team-section p {
+  font-size: 14px;
+  margin: 0;
+}
+
+#footer-section{
+  background-color: #050505;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2% 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#footer-section p{
+  margin: 0;
+}
