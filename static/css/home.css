@@ -5,7 +5,7 @@ body {
   padding:0;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: "Montserrat-Bold";
+  font-family: 'Mulish';
   font-weight: bolder;
 }
 
@@ -46,14 +46,13 @@ h1,h2,h3,h4,h5,h6{
 }
 .hero-heading {
   font-size: 55px;
-  font-weight: bold;
   margin-bottom: 20px;
-  font-family: "Montserrat-Bold";
-  font-weight: bolder;
+  font-weight:800;
+  line-height: 64px;
 }
 .hero-paragraph {
   font-size: 14px;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   width: 60%;
 }
 .hero-button {
@@ -123,6 +122,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 40px;
+  margin-bottom: 15px;
 }
 
 .distance-container p {
@@ -192,6 +192,7 @@ input[type='number'] {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  margin:10px
 }
 
 .option:hover {
@@ -221,6 +222,7 @@ input[type='number'] {
 .options-container h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  width: 60%;
 }
 
 #content-section {
@@ -232,6 +234,7 @@ input[type='number'] {
   text-align: center;
   padding: 20px;
   margin-top: 20px;
+  border-radius: 7px;
 }
 
 .disease-option {
