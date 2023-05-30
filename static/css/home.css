@@ -20,6 +20,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* Navbar section */
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .navbar-brand img {
   width: 320px;
   height: 40px;
@@ -301,4 +306,80 @@ input[type='text'] {
 }
 #footer-section p{
   margin: 0;
+}
+
+
+
+/* Responsive Behaviour */
+@media (max-width: 767px) {
+  .hero-heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .hero-paragraph {
+    width: 100%;
+  }
+  .hero-button {
+    font-size: 12px;
+  }
+  .features-section {
+    padding: 10% 4% 10% 4%;
+  }
+  .distance-container {
+    max-width: 100%;
+  }
+  .distance-container h2 {
+    font-size: 2rem;
+    line-height: 32px;
+    max-width: 60%;
+  }
+  .distance-container p {
+    width: 50%;
+  }
+  .form-group {
+    display: block;
+    max-width: 50%;
+  }
+  input[type='number'] {
+    width: 100%;
+  }
+  .submit-button {
+    font-size: 12px;
+  }
+  .options-container h2 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  #content-section {
+    padding: 20px 4%;
+  }
+  .disease-option {
+    width: 45%;
+  }
+
+  #form-section {
+    margin: 2rem 0;
+  }
+  input[type='text'] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    margin: 0;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px;
+  }
 }
